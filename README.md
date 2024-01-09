@@ -6,3 +6,4 @@
 6) The algorithm to printing the price entered from the keyboard on the screen by adding VAT (18%).
 7) The algorithm for the program that returns the sum and average of five numbers.
 8) The algorithm for factorial operation.
+9) The algorithm of the program that converts Fahrenheit degrees entered from the keyboard to Celsius. (ThermoConverter)
