@@ -1,0 +1,15 @@
+/*Example 7: Create the algorithm for the program that returns the sum and average of five numbers. */
+import java.util.Scanner;
+public class VertexNucleus {
+    public static void main(String[]args){
+        Scanner input=new Scanner(System.in);
+        int num;
+        double result=0.0;
+        for(int i=0; i<5;i++){
+            System.out.println("Please enter a number.");
+            num=input.nextInt();
+            result+=num;
+        }
+        System.out.println(result/5);
+    }   
+}
