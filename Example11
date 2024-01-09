@@ -1,0 +1,17 @@
+//Example 11: The algorithm of the program that calculates the sales price of a product by adding the tax rate and profit rate from the keyboard to the purchase price.
+import java.util.Scanner;
+public class FiscalZenithExecutor {
+
+public static void main(String[]args){
+    double purchase, profit, VAT, sales=0.0;
+    Scanner input= new Scanner(System.in);
+    System.out.println("Please enter a value of purchase price.");
+    purchase=input.nextDouble();
+    System.out.println("Please enter the tax rate.");
+    VAT=input.nextDouble();
+    System.out.println("Please enter the profit rate.");
+    profit=input.nextDouble();
+    sales= (purchase*VAT/100) + (purchase*profit/100) + purchase;
+    System.out.println("This is the sales price with the conditions you specified: " + sales);
+} 
+}
