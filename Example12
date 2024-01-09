@@ -1,0 +1,19 @@
+// Final %70 and midterm %30, asks passing or not
+import java.util.Scanner;
+public class Euphrates { // I wanted it to be a cool class name LOL.
+    public static void main(String[]args){
+        Scanner input= new Scanner(System.in); //We need to get data from the user.
+    int midterms, finals; 
+    double result=0; //The result may be fractional.
+    System.out.println("Please enter your midterm grade.");
+    midterms=input.nextInt();
+    System.out.println("Please enter your final grade.");
+    finals= input.nextInt();
+    //At my school, 30% of midterms and 70% of finals are taken and added. If the result exceeds 50, the class is passed. Let's do it.
+    result= (finals*70/100) + (midterms*30/100);
+    if(result >= 50.00)
+    System.out.println(result +" Congrats! You passed.");
+    else
+    System.out.println(result +" Oops! You should study more.. You couldn't pass.");
+    }
+}
