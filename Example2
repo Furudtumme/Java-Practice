@@ -1,0 +1,22 @@
+/*Example 2: Design the algorithm and flow diagram that finds out 
+whether the student passes the course based on the midterm and final grades entered.*/
+
+import java.util.Scanner;
+public class QuantumStorm { // I wanted it to be a cool class name LOL.
+    public static void main(String[]args){
+        Scanner input= new Scanner(System.in); //We need to get data from the user.
+    int midterms, finals; 
+    double result=0; //The result may be fractional.
+    System.out.println("Please enter your midterm grade.");
+    midterms=input.nextInt();
+    System.out.println("Please enter your final grade.");
+    finals= input.nextInt();
+    //At my school, 40% of midterms and 60% of finals are taken and added. If the result exceeds 50, the class is passed. Let's do it.
+    result= (finals*60/100) + (midterms*40/100);
+    if(result >= 50.00)
+    System.out.println(result +" Congrats! You passed.");
+    else
+    System.out.println(result +" Oops! You should study more.. You couldn't pass.");
+    }
+    
+}
