@@ -1,0 +1,25 @@
+/*Example 10: The algorithm of the program that finds the roots of the 2nd degree equation given as ax²+bx+c=0. */
+import java.util.Scanner;
+public class RootFinderWizard {
+    public static void main(String[]args){
+        Scanner input= new Scanner(System.in);// We need to get data from the user.
+        //ax²+bx+c=0
+        double a, b, c, root1,root2, delta=0;
+        System.out.println("Enter the coefficients for ax^2 + bx + c = 0:");
+        System.out.println("Enter for the value 'a' ");
+        a=input.nextDouble();
+        System.out.println("Enter for the value 'b' ");
+        b=input.nextDouble();
+        System.out.println("Enter for the value 'c' ");
+        c=input.nextDouble();
+        delta= b*b-(4*a*c);  //The formul of Delta
+        root1= (-b-Math.sqrt(delta))/2*a; //The formul of finding roots
+        root2= (-b+Math.sqrt(delta))/2*a;
+        if(delta>0)
+        System.out.println("We have 2 roots. There are: "+ root1 + " " + root2);
+        else if(delta==0){
+            System.out.println("We have 1 root. There is: "+ root1 );
+        } else
+        System.out.println("No real roots. Complex roots exist.");
+        }  
+    }
