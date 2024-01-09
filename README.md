@@ -11,3 +11,4 @@
 11) The algorithm of the program that calculates the sales price of a product by adding the tax rate and profit rate from the keyboard to the purchase price.
 12) The algorithm that finds average calculation with user's midterm and final grades.              
 13) The algorithm that calculates the area of ​​the triangle whose height and base length are entered from the keyboard.
+14) Algorithm that calculates the main current voltage with the current value and resistance value entered by the user.
