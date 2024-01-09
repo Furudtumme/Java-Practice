@@ -10,3 +10,4 @@
 10) The algorithm of the program that finds the roots of the 2nd degree equation given as ax²+bx+c=0
 11) The algorithm of the program that calculates the sales price of a product by adding the tax rate and profit rate from the keyboard to the purchase price.
 12) The algorithm that finds average calculation with user's midterm and final grades.              
+13) The algorithm that calculates the area of ​​the triangle whose height and base length are entered from the keyboard.
