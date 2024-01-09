@@ -8,3 +8,4 @@
 8) The algorithm for factorial operation.
 9) The algorithm of the program that converts Fahrenheit degrees entered from the keyboard to Celsius. (ThermoConverter)
 10) The algorithm of the program that finds the roots of the 2nd degree equation given as ax²+bx+c=0
+11) The algorithm of the program that calculates the sales price of a product by adding the tax rate and profit rate from the keyboard to the purchase price.
