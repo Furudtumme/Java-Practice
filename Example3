@@ -1,0 +1,18 @@
+/*Example 3: Design the algorithm and flowchart to find whether the given integer is zero, positive or negative. */
+import java.util.Scanner;
+public class GalacticPulse {
+    public static void main(String[]args){
+        Scanner input= new Scanner(System.in);  //We need to take a number input from the user.
+        int num;
+        System.out.println("Please enter a number.");
+        num=input.nextInt();
+        if(num==0)
+        System.out.println("The number is zero.");
+        else if(num<0){
+            System.out.println("This number is negative.");
+        }else
+        System.out.println("This number is positive");
+
+    }
+    
+}
