@@ -1,0 +1,15 @@
+//Run the application that calculates the area of ​​the triangle whose height and base length are entered from the keyboard.
+import java.util.Scanner;
+public class FieldNavigator {
+    public static void main(String[]args){
+        Scanner input= new Scanner(System.in);
+        int height, base;
+        double area=0;
+        System.out.print("Please enter the base lenght value of triangle.");
+        base=input.nextInt();
+        System.out.println("Please enter the height value of triangle");
+        height= input.nextInt();
+        area=(base*height)/2;
+        System.out.println("The area of triangle is: " + area);
+    }
+}
