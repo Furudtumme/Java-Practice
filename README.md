@@ -1,1 +1,2 @@
 1) Algorithm that finds the largest of two numbers.
+2) Algorithm that finds average calculation with user's midterm and final grades.
