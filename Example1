@@ -1,0 +1,23 @@
+/*Örnek 1: Birbirinden farklı olarak verilen iki adet sayıdan,
+ büyük olanı bulup gösteren algoritma ve akış diyagramını tasarlayınız.*/
+ /*Example 1: From two numbers given differently,
+ Design the algorithm and flow diagram to find and show the larger one.*/
+ 
+import java.util.Scanner;
+public class hio {
+public static void main(String[]args){
+    Scanner input= new Scanner(System.in);
+    int num1, num2, highest;
+    System.out.println("Enter the first number please.");
+    num1= input.nextInt();
+    System.out.println("Enter the second number please.");
+    num2= input.nextInt();
+    if(num1>num2)
+        highest=num1;
+        else
+        highest=num2;
+
+        System.out.println("The highest number is : " + highest);
+}
+
+}
