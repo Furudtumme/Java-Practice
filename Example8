@@ -1,0 +1,14 @@
+/*Example 8: The number entered from the keyboard (N) algorithm of the program that takes the factorial of a number. */
+import java.util.Scanner;
+public class FactorialMaestro {
+    public static void main(String[]args){
+        Scanner input= new Scanner(System.in);
+        int num, result=1;
+        System.out.println("Please enter a number.");
+        num=input.nextInt();
+        for(int i=1; i<=num; i++){
+            result*=i;
+        }
+        System.out.println(result);
+    }
+}
