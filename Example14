@@ -1,0 +1,15 @@
+//Algorithm that calculates the main current voltage with the current value and resistance value entered by the user.
+import java.util.Scanner;
+public class VoltageAnalyzer {
+    public static void main(String[]args){
+        Scanner input= new Scanner(System.in);
+        int voltage=0, amper, resistance;
+        System.out.println("Please enter the value of resistance.");
+        resistance=input.nextInt();
+        System.out.println("Please enter the value of current.");
+        amper=input.nextInt();
+        //The formul is: V=I*R
+        voltage= amper* resistance;
+        System.out.println("The voltage value is:  " + voltage);
+    }       
+}
