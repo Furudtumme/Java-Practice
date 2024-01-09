@@ -7,3 +7,4 @@
 7) The algorithm for the program that returns the sum and average of five numbers.
 8) The algorithm for factorial operation.
 9) The algorithm of the program that converts Fahrenheit degrees entered from the keyboard to Celsius. (ThermoConverter)
+10) The algorithm of the program that finds the roots of the 2nd degree equation given as ax²+bx+c=0
