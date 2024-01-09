@@ -1,0 +1,13 @@
+/*Example 6: Print the price entered from the keyboard on the screen by adding VAT (18%). */
+import java.util.Scanner; //We need to take data input from the user.
+public class InnoByteMaster {
+    public static void main(String[]args){
+        Scanner input= new Scanner(System.in);
+        int value;
+        double result=0.0;
+        System.out.println("Enter a value.");
+        value=input.nextInt();
+        result= value +(value*18/100);  //We must also add VAT.
+        System.out.println(result);
+    }   
+}
