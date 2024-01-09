@@ -1,0 +1,13 @@
+/*Example 9: Write the algorithm of the program that converts Fahrenheit degrees entered from the keyboard to Celsius. */
+import java.util.Scanner;
+public class ThermoConverter {
+    public static void main(String[]args){
+        //The formul is : celcius = (fahrenheit - 32) * 5 / 9
+        Scanner input= new Scanner(System.in);
+        double value;
+        System.out.println("Please enter a value.");
+        value=input.nextDouble();
+        value= (value-32)*5/9;
+        System.out.println(value);
+    }
+}
