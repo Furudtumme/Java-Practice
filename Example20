@@ -1,0 +1,28 @@
+/* Example 20: Workers working in a factory with a fixed salary receive additional salaries depending on their family situation. If the number of children is 1, they receive 5% of their
+ salary, if they have 2 children, 10%, and if they have 3 or more children, they receive 15% of their salary. Accordingly, the algorithm performs the necessary calculation by asking the user for the worker's salary and the number of children. */
+import java.util.Scanner;
+ public class Payroll {
+    public static void main(String[]args){
+        Scanner input=new Scanner(System.in);
+        int kiddos, salary;
+        double total=0.0;
+        System.out.println("Please enter your monthly salary. ");
+        salary=input.nextInt();
+        System.out.println("Please enter how many kids you have.");
+        kiddos=input.nextInt();
+        if(kiddos>=0){
+            if (kiddos==1){
+            total=salary + (salary*5/100);
+            System.out.println("Your total salary: " + total);
+        } else if(kiddos== 2){
+            total=salary + (salary*10/100);
+            System.out.println("Your total salary: " + total);
+        } else if(kiddos==0)
+            System.out.println("Your total salary: " + total);
+            else if (kiddos>=3 )
+             total=salary + (salary*15/100);
+            System.out.println("Your total salary: " + total);
+        } else
+        System.out.println("Incomplete or incorrect data entry.");
+    }    
+}
