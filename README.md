@@ -16,5 +16,6 @@
 16) The algorithm of ivisibility by 3 or 5.
 17) The algorithm number control system.
 18) The algorithm that determines whether water is solid, liquid or gas based on its temperature and writes it to the screen.
-19)  The algorithm that prints the number of digits between 0 and 99,999 entered from the keyboard.
-20)  The algorithm that calculates income assistance for families with children.
+19) The algorithm that prints the number of digits between 0 and 99,999 entered from the keyboard.
+20) The algorithm that calculates income assistance for families with children.
+21) The algorithm that determines salary based on working hours.
