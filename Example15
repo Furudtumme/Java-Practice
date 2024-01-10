@@ -1,0 +1,15 @@
+/*Example 15: Create an algorithm that checks whether the number 
+received from the user is odd or even and prints it on the screen.*/
+import java.util.Scanner;
+public class OddityInspector {
+    public static void main(String[]args){
+        Scanner input=new Scanner(System.in);
+        int num;
+        System.out.println("Please enter a number.");
+        num=input.nextInt();
+        if(num%2==0)
+        System.out.println("The number is odd.");
+        else
+        System.out.println("This number is even.");
+    }
+}
