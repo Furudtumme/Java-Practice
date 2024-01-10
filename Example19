@@ -1,0 +1,21 @@
+/*Example 18: Algorithm that determines whether water is solid,
+ liquid or gas based on its temperature and writes it to the screen. */
+import java.util.Scanner;
+ public class ThermCalcu {
+    public static void main(String[]args){
+    Scanner input= new Scanner(System.in);
+    int temperature;
+    System.out.println("Enter the temperature of the water.");
+    temperature=input.nextInt();
+    if(temperature<0)
+    System.out.println("Water is solid, that is, frozen.");  
+    else if(temperature>0 && temperature<100){
+        System.out.println("Water is in liquid form.");
+    }  else if (temperature >100)
+        System.out.println("Water is in gaseous state.");
+        else if(temperature==0){
+            System.out.println("Water is currently both solid and liquid.");
+        } else if(temperature==100)
+            System.out.println("Water is currently both liquid and gaseous.");
+    }
+}
