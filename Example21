@@ -1,0 +1,23 @@
+/* Example 21:  The following criteria are followed when calculating the wage of a worker in a factory
+ If the worker has worked less than 40 hours, the wage he will receive is calculated by multiplying
+  the hours worked and the hourly wage. If the worker has worked 40 hours or more, the hours worked will be calculated
+   as 2 hour, and the algorithm prints the amount tobe paid by taking the information accordingly. */
+import java.util.Scanner;
+public class EmployeeCriteriaHandler {
+  public static void main(String[]args){
+    Scanner input= new Scanner(System.in);
+    int salary, hour, total=0;
+    System.out.println("Please enter your salary for each an hour.");
+    salary=input.nextInt();
+    System.out.println("Please enter how much hours did you work.");
+    hour=input.nextInt();
+    if(hour> 0 && hour<40){
+        total= salary*hour;
+        System.out.println("Your total salary is: " + total);
+    } else if( hour>40){
+         total= 2
+         *salary*hour;
+        System.out.println("Your total salary is: " + total);
+    }
+  }  
+}
