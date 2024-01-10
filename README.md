@@ -16,3 +16,4 @@
 16) Divisibility algorithm by 3 or 5.
 17) The algorithm number control system.
 18) Algorithm that determines whether water is solid, liquid or gas based on its temperature and writes it to the screen.
+19)  The algorithm that prints the number of digits between 0 and 99,999 entered from the keyboard.
