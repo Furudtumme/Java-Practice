@@ -15,3 +15,4 @@
 15) The algorithm that checks whether the number received from the user is odd or even and prints it on the screen.
 16) Divisibility algorithm by 3 or 5.
 17) The algorithm number control system.
+18) Algorithm that determines whether water is solid, liquid or gas based on its temperature and writes it to the screen.
