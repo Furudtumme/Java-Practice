@@ -1,0 +1,15 @@
+/* Example 20: If the number entered by the user from the keyboard is divisible by 3 and 5,
+create an algorithm that says it is divisible by 3 and 5, and if it is not, it is not divisible. */
+import java.util.Scanner;
+public class Fivenlyzer {
+    public static void main(String[]args){
+        Scanner input= new Scanner(System.in);
+        int num;
+        System.out.println("Please enter the number.");
+        num=input.nextInt();
+        if(num%3==0 && num%5==0) //We check whether the number is divisible or not.
+        System.out.println("A number is a number that is divisible by 3 and 5.");
+        else
+        System.out.println("The number is not divisible by 3 and 5.");
+    }
+}
