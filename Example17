@@ -1,0 +1,15 @@
+/* Example 17: If the number entered by the user from the keyboard is in the range of 0-100,
+ create an algorithm that says "valid" on the screen, otherwise "invalid". */
+import java.util.Scanner;
+ public class ValidationProcessor {
+    public static void main(String[]args){
+    Scanner input= new Scanner(System.in);
+    int num;
+    System.out.println("Please enter a number.");
+    num=input.nextInt();
+    if(0<num && num<100)
+    System.out.println("Valid.");
+    else
+    System.out.println("Unvalid.");
+    }
+}
