@@ -1,0 +1,23 @@
+/*Example 19: Algorithm that prints the number of digits between
+ 0 and 99,999 entered from the keyboard. */ 
+ import java.util.Scanner;
+ public class DigitCountProcessor {
+    public static void main(String[]args){
+        Scanner input=new Scanner(System.in);
+        int num;
+        System.out.println("Enter a number between 0 and 99,999 please.");
+        num=input.nextInt();
+        if(0<num && num<99999){
+            int counter=0;
+            while(num!=0){  //The loop will continue until the number of digits runs out.
+             num= num/10;   //Since we are in the 10-digit system, we divide the digits one by one by 10.
+             counter++;     //1 is added to the number of digits in each division.
+
+            }
+           System.out.println(counter);
+
+        }
+        else
+        System.out.println("Missing or incorrect data entry.");
+    }
+}
