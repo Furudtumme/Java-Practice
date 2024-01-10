@@ -1,0 +1,19 @@
+//Example 22: Make the algorithm to find the difference of two numbers.
+import java.util.Scanner;
+public class Diff {
+    public static void main(String[]args){
+        Scanner input=new Scanner(System.in);
+        int num1, num2, total=0;
+        System.out.println("Please enter the first number.");
+        num1=input.nextInt();
+        System.out.println("Please enter the second number.");
+        num2= input.nextInt();
+        total=num1-num2;
+        System.out.println("The result is: " + total);
+        System.out.println("The result is: " + difference(num1, num2) );
+    }
+    //Let's do it as a method.@interface
+    public static int difference(int num1, int num2){
+        return num1-num2;
+    }
+}
