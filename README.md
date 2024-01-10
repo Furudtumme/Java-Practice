@@ -19,3 +19,4 @@
 19) The algorithm that prints the number of digits between 0 and 99,999 entered from the keyboard.
 20) The algorithm that calculates income assistance for families with children.
 21) The algorithm that determines salary based on working hours.
+22) The algorithm to find the difference of two numbers.
