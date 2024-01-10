@@ -13,7 +13,8 @@
 13) The algorithm that calculates the area of ​​the triangle whose height and base length are entered from the keyboard.
 14) Algorithm that calculates the main current voltage with the current value and resistance value entered by the user.
 15) The algorithm that checks whether the number received from the user is odd or even and prints it on the screen.
-16) Divisibility algorithm by 3 or 5.
+16) The algorithm of ivisibility by 3 or 5.
 17) The algorithm number control system.
-18) Algorithm that determines whether water is solid, liquid or gas based on its temperature and writes it to the screen.
+18) The algorithm that determines whether water is solid, liquid or gas based on its temperature and writes it to the screen.
 19)  The algorithm that prints the number of digits between 0 and 99,999 entered from the keyboard.
+20)  The algorithm that calculates income assistance for families with children.
