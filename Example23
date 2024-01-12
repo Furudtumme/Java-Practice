@@ -1,0 +1,36 @@
+/*We create an array of the size the user wants.
+    We also receive the data from the user and print the single character in this data.*/
+
+    import java.util.Scanner;
+    public class testing {
+        public static void main(String[] args) {
+        Scanner input= new Scanner(System.in);
+        int row, column;
+        System.out.println("Please enter the size of row.");
+        row=input.nextInt();
+        System.out.println("Please enter the size of column.");
+        column=input.nextInt();
+        createArray(row, column);
+        }
+    public static void createArray(int row, int column){
+        Scanner input= new Scanner(System.in);
+        String[][] arr= new String[row][column];
+        for(int i=0; i<row; i++){
+            for(int j=0; j<column; j++){
+                System.out.println("[" + i + "]"+ "["+ j +"]" );
+                arr[i][j]=input.next();
+            }
+        }
+        printSingleOne(arr);
+      }
+
+    public static void printSingleOne(String[][]arr){
+        for(int i=0; i<arr.length; i++){
+            for(int j=0; j<arr[i].length; j++){
+                if(arr[i][j].length()==1){
+                    System.out.println("The single one: " + "arr[" + i + "]" + "[" + j +"] = " + arr[i][j]);
+                }
+            }
+        }
+      } 
+    }
