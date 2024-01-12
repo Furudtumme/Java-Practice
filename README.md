@@ -20,3 +20,4 @@
 20) The algorithm that calculates income assistance for families with children.
 21) The algorithm that determines salary based on working hours.
 22) The algorithm to find the difference of two numbers.
+23) The algorithm create an array of the size the user wants also receive the data from the user and print the single character in this data.
