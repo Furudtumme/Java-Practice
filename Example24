@@ -1,0 +1,17 @@
+/* Write a program that collects the numbers entered from the keyboard until the number
+0 is entered, writes the result to the screen, and repeats this process 10 times. */
+import java.util.Scanner;
+public class lgo2 {
+    public static void main(String[]args){
+        Scanner input= new Scanner(System.in);
+        for(int i=0; i<10; i++){
+            int num, total=0;
+            do{
+                System.out.println("Please enter a num till '0'");
+                num=input.nextInt();
+                total+=num;
+            }while (num!=0);
+            System.out.println("The total is:" + total);
+        }
+        }
+    }
