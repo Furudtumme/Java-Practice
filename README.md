@@ -21,3 +21,4 @@
 21) The algorithm that determines salary based on working hours.
 22) The algorithm to find the difference of two numbers.
 23) The algorithm create an array of the size the user wants also receive the data from the user and print the single character in this data.
+24) The algorithm for program that collects the numbers entered from the keyboard until the number 0 is entered, writes the result to the screen, and repeats this process 10 times.
