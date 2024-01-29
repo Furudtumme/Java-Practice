@@ -22,5 +22,4 @@
 22) The algorithm to find the difference of two numbers.
 23) The algorithm create an array of the size the user wants also receive the data from the user and print the single character in this data.
 24) The algorithm for program that collects the numbers entered from the keyboard until the number 0 is entered, writes the result to the screen, and repeats this process 10 times.
-25) The algorithm for program that finds the odd sum and multiplication of a list from 1 to N
- and the sum of squares of the list from 1 to N, based on the N error entered from the keyboard.
+25) The algorithm for program that finds the odd sum and multiplication of a list from 1 to N and the sum of squares of the list from 1 to N, based on the N error entered from the keyboard.
