@@ -1,0 +1,44 @@
+/*Example26: Three side lengths are entered from the keyboard. With the entered side lengths: a- Whether the triangle can be drawn, b- If the triangle is drawn, the type of triangle
+ (isosceles, scalene, equilateral), c- Design the algorithm and flow diagram of the program that finds the area and perimeter of the drawn triangle and writes it to the screen. */
+import java.util.Scanner;
+ public class T3 {
+    public static void main(String[]args){
+        Scanner input= new Scanner(System.in);
+        double edge1, edge2, edge3;
+        System.out.println("Please enter for first edge.");
+        edge1=input.nextDouble();
+        System.out.println("Please enter for second edge.");
+        edge2=input.nextDouble();
+        System.out.println("Please enter for third edge.");
+        edge3=input.nextDouble();
+        if (ifTriangle(edge1, edge2, edge3)){
+            System.out.println("Yes, a triangle can be drawn.");
+            String variation= whichTriangle(edge1, edge2, edge3);
+            System.out.println(variation);
+            Double ar= Area(edge1, edge2, edge3);
+            Double summ= sum(edge1, edge2, edge3);
+            System.out.println("Area of ​​triangle:" + ar + "\nPerimeter of triangle:" + summ);
+        } else
+        System.out.println("It's not possible.");
+
+    }
+    public static boolean ifTriangle(double a,double b,double c){
+        return ((a +b)>c && (a+c)>b && (c+b)>a);
+    }
+    public static String whichTriangle(double a, double b, double c){
+        if( a==b && a==c ){
+            return "It is an equilateral triangle.";
+        }else if(a==b || a==c || b==c){
+            return "It is an isosceles triangle.";
+        } else{
+            return "It is a scalene triangle.";
+        }   
+    }
+    public static double Area(double a, double b, double c){
+        double s = (a + b + c) / 2;
+        return  Math.sqrt( s * (s - a) * (s - b) * (s - c));
+    }
+    public static double sum(double a, double b, double c){
+        return a+b+c;
+    }   
+}
