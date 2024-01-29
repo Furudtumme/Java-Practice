@@ -1,0 +1,23 @@
+/*Example 25: A program that finds the odd sum and multiplication of a list from 1 to N
+ and the sum of squares of the list from 1 to N, based on the N error entered from the keyboard.*/
+import java.util.Scanner;
+ public class QuantumMatrixEngine {
+    public static void main(String[]args){
+        Scanner input= new Scanner(System.in);
+        int N,num,result=0, odd=0, even=0;
+        System.out.println("Please enter a number for N.");
+        N=input.nextInt();
+        for(int i=1; i<=N; i++){
+            System.out.println("Please enter a number.");
+            num=input.nextInt();
+            if(num%2==0){
+                result=num*num;
+                even+=result;
+            } else{
+                odd+=num;
+            } 
+        }
+  System.out.println(odd);
+  System.out.println(even);
+    }
+}
